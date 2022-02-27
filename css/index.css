@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=IM+Fell+English+SC&family=Montserrat:wght@100;200&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+.head
+{
+    background-image: url('../images/carousel-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.layout
+{
+    background-color: rgba(51,33,29,0.7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar
+{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 333;
+}
+.nav-item a
+{
+    font-size: 1.1rem;
+    color: white !important;
+}
+.navbar-brand 
+{
+    font-size: 1.8rem;
+    color: white !important;
+    font-family:'IM Fell English SC', serif;
+
+    font-weight: 900;
+}
+.nav-item a:hover
+{
+    color: #DA9F5B !important;
+    border: #DA9F5B solid 1px;
+}
+.navbar-toggler
+{
+    color: white !important;
+}
+.details-top
+{
+    color:#DA9F5B ;
+    font-size:1.25rem ;
+}
+.details h1
+{
+    font-family:'IM Fell English SC', serif;
+    font-size: 6rem;
+    color: white;
+}
+.details-bo
+{
+    color: white;
+    font-size: 2rem;
+}
+.detail-caption
+{
+    font-weight: 900;
+}
+.about-head
+{
+    color:#DA9F5B ;
+    font-weight: 600;
+}
+.about-bo
+{
+    color: #33211D;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.about-te
+{
+    color: #33211D;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.about-btn
+{
+    background-color: #33211D;
+    color: white;
+}
+.about-btn:hover
+{
+    color: white;
+}
+.butn
+{
+    background-color: #DA9F5B;
+}
+.about-img:hover
+{
+    transform:scale(1.1) rotate(10deg);
+    transition-duration: 1s;
+}
+.icon-background
+{
+    background-color:#DA9F5B ;
+}
+.service-head
+{
+    color: #33211D
+}
+#offer
+{
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+}
+.layoutt
+{
+    background-color: rgba(51,33,29,0.8);
+}
+.offer-head
+{
+    color: #DA9F5B;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.offer-caption
+{
+    color: white;
+    font-size: 2.8rem;
+}
+.offer-buttom
+{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.input-enter input
+{
+    width: 30%;
+    background-color: transparent;
+}
+.bttn
+{
+    background-color: #DA9F5B;
+    color: white;
+}
+.offer-button
+{
+    right: 391px;
+    top: 8px;
+    bottom: 0;   
+}
+.price
+{
+    background-color:#DA9F5B ;
+    color: #33211D;
+    width: 50px;
+    height: 45px;
+    top: 0;
+    right: 35px;
+}
+.Book-Tables
+{
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+}
+.sacond-table
+{
+    background-color: rgba(51,33,29,0.9);
+}
+.inp-style
+{
+    background-color: transparent;
+    border: 1px solid rgb(121, 103, 1);
+    color: white;
+}
+.inps-style
+{
+    background-color: transparent;
+    border: 1px solid rgb(121, 103, 1);
+    color: white;
+}
+.inps-style:hover
+{
+    background-color:rgb(121, 103, 1) ;
+    border: 1px solid rgb(121, 103, 1);
+    color: white;
+}
+.footer
+{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+.last-input input
+{
+    background-color: transparent !important;
+}
+.loading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(51,33,29);
+    z-index: 30523;
+}
+.loading i
+{
+    color: grey;
+}
+body
+{
+    overflow-y: hidden;
+}
+.back
+{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51,33,29);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
